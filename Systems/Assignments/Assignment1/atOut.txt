@@ -1,0 +1,105 @@
+Enter one of the following action or press CTRL-D to exit.
+C - create a new course record
+R - read an existing course record
+U - upate an exsisting course record
+D - delete an existing course record
+E - update enrolled student count record
+T - show total course count
+ERROR: course already exist
+Enter one of the following action or press CTRL-D to exit.
+C - create a new course record
+R - read an existing course record
+U - upate an exsisting course record
+D - delete an existing course record
+E - update enrolled student count record
+T - show total course count
+ERROR: course already exist
+Enter one of the following action or press CTRL-D to exit.
+C - create a new course record
+R - read an existing course record
+U - upate an exsisting course record
+D - delete an existing course record
+E - update enrolled student count record
+T - show total course count
+Course department: WRC Writing Program
+Course number: 1013
+Course name: Freshman Composition I
+Scheduled days: TH
+Course start: 8/26/19
+Course end: 12/10/19
+Credit hour: 3
+Enrolled Students: 58
+Enter one of the following action or press CTRL-D to exit.
+C - create a new course record
+R - read an existing course record
+U - upate an exsisting course record
+D - delete an existing course record
+E - update enrolled student count record
+T - show total course count
+Enter one of the following action or press CTRL-D to exit.
+C - create a new course record
+R - read an existing course record
+U - upate an exsisting course record
+D - delete an existing course record
+E - update enrolled student count record
+T - show total course count
+Course department: WRC Writing Program
+Course number: 1013
+Course name: Freshman Composition I
+Scheduled days: TH
+Course start: 8/26/19
+Course end: 12/10/19
+Credit hour: 3
+Enrolled Students: 48
+Enter one of the following action or press CTRL-D to exit.
+C - create a new course record
+R - read an existing course record
+U - upate an exsisting course record
+D - delete an existing course record
+E - update enrolled student count record
+T - show total course count
+Course department: POL Political Science
+Course number: 1013
+Course name: Introduction to American Politics
+Scheduled days: TH
+Course start: 8/26/19
+Course end: 12/7/19
+Credit hour: 3
+Enrolled Students: 44
+Enter one of the following action or press CTRL-D to exit.
+C - create a new course record
+R - read an existing course record
+U - upate an exsisting course record
+D - delete an existing course record
+E - update enrolled student count record
+T - show total course count
+Enter one of the following action or press CTRL-D to exit.
+C - create a new course record
+R - read an existing course record
+U - upate an exsisting course record
+D - delete an existing course record
+E - update enrolled student count record
+T - show total course count
+Course department: POL Political Science
+Course number: 1013
+Course name: Introduction to American Politics
+Scheduled days: TH
+Course start: 8/26/19
+Course end: 12/7/19
+Credit hour: 3
+Enrolled Students: 44
+Enter one of the following action or press CTRL-D to exit.
+C - create a new course record
+R - read an existing course record
+U - upate an exsisting course record
+D - delete an existing course record
+E - update enrolled student count record
+T - show total course count
+ERROR: course not found
+Enter one of the following action or press CTRL-D to exit.
+C - create a new course record
+R - read an existing course record
+U - upate an exsisting course record
+D - delete an existing course record
+E - update enrolled student count record
+T - show total course count

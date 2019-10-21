@@ -1,0 +1,42 @@
+PROGRAM 2 Output:
+*** Encryption Only
+>>> Hexdump of Original Data, 77 bytes
+0000 I f   y  o u   w  o u l d    l i k  e   m o  r e   i  n f o r  m a t i  o n   a  b o u t  
+     49662079 6F752077 6F756C64 206C696B 65206D6F 72652069 6E666F72 6D617469 6F6E2061 626F7574 
+0028   e n c  r y p t  i o n ,    t a k  e   C S  4 3 6 3    C r y  p t o g  r a p h  y . . w  
+     20656E63 72797074 696F6E2C 2074616B 65204353 34333633 20437279 70746F67 72617068 79000077 
+padded with 1 for a total of 88 bytes
+0000 o n e k  M . . .  I f   y  o u   w  o u l d    l i k  e   m o  r e   i  n f o r  m a t i  
+     6F6E656B 4D000000 49662079 6F752077 6F756C64 206C696B 65206D6F 72652069 6E666F72 6D617469 
+0028 o n   a  b o u t    e n c  r y p t  i o n ,    t a k  e   C S  4 3 6 3    C r y  p t o g  
+     6F6E2061 626F7574 20656E63 72797074 696F6E2C 2074616B 65204353 34333633 20437279 70746F67 
+0050 r a p h  y . 0 .  1 . 2 .  3 . 4 .  5 . 6 .  7 . 8 .  9 . : .  ; . < .  = . > .  ? . @ .  
+     72617068 79003000 31003200 33003400 35003600 37003800 39003A00 3B003C00 3D003E00 3F004000 
+swapping every 14 bytes, size = 88
+0000   n e k  M e . .  I f b y  o u o ,  o u l d  r l i k  e . m o  r . 9 i  n f o .  m a t i  
+     206E656B 4D650000 49666279 6F756F2C 6F756C64 726C696B 65006D6F 72003969 6E666F00 6D617469 
+0028 a n   a    . u t    e . c  r y p .  i o n w  a t a k  e . C S  4 3 . 3    C   .  p t o g  
+     616E2061 20007574 20650063 72797000 696F6E77 6174616B 65004353 34330033 20432000 70746F67 
+0050 . a p h  y . 0 .  1   2 .  3 . 4 .  5 . 6 .  7 . 8 .    . : .  ; . < .  = . > .  ? . @ r  
+     00617068 79003000 31203200 33003400 35003600 37003800 20003A00 3B003C00 3D003E00 3F004072 
+swap every 1 bits, Size = 88 bytes
+0000   n e k  M e . .  I f b y  o u o ,  o u l d  r l i k  e . m o  r . 9 i  n f o .  m a t i  
+     206E656B 4D650000 49666279 6F756F2C 6F756C64 726C696B 65006D6F 72003969 6E666F00 6D617469 
+0028 a n   a    . u t    e . c  r y p .  i o n w  a t a k  e . C S  4 3 . 3    C   .  p t o g  
+     616E2061 20007574 20650063 72797000 696F6E77 6174616B 65004353 34330033 20432000 70746F67 
+0050 . a p h  y . 0 .  1   2 .  3 . 4 .  5 . 6 .  7 . 8 .    . : .  ; . < .  = . > .  ? . @ r  
+     00617068 79003000 31203200 33003400 35003600 37003800 20003A00 3B003C00 3D003E00 3F004072 
+left rotational shift by 6 bits, Size = 88 bytes
+0000   n e k  M e . .  I f b y  o u o ,  o u l d  r l i k  e . m o  r . 9 i  n f o .  m a t i  
+     206E656B 4D650000 49666279 6F756F2C 6F756C64 726C696B 65006D6F 72003969 6E666F00 6D617469 
+0028 a n   a    . u t    e . c  r y p .  i o n w  a t a k  e . C S  4 3 . 3    C   .  p t o g  
+     616E2061 20007574 20650063 72797000 696F6E77 6174616B 65004353 34330033 20432000 70746F67 
+0050 . a p h  y . 0 .  1   2 .  3 . 4 .  5 . 6 .  7 . 8 .    . : .  ; . < .  = . > .  ? . @ r  
+     00617068 79003000 31203200 33003400 35003600 37003800 20003A00 3B003C00 3D003E00 3F004072 
+>>> Hexdump of Encrypted Data, 88 bytes
+0000   n e k  M e . .  I f b y  o u o ,  o u l d  r l i k  e . m o  r . 9 i  n f o .  m a t i  
+     206E656B 4D650000 49666279 6F756F2C 6F756C64 726C696B 65006D6F 72003969 6E666F00 6D617469 
+0028 a n   a    . u t    e . c  r y p .  i o n w  a t a k  e . C S  4 3 . 3    C   .  p t o g  
+     616E2061 20007574 20650063 72797000 696F6E77 6174616B 65004353 34330033 20432000 70746F67 
+0050 . a p h  y . 0 .  1   2 .  3 . 4 .  5 . 6 .  7 . 8 .    . : .  ; . < .  = . > .  ? . @ r  
+     00617068 79003000 31203200 33003400 35003600 37003800 20003A00 3B003C00 3D003E00 3F004072 

@@ -1,0 +1,1 @@
+awk -F'[ :]' '{print $6,$0}' $1 | sort | awk '{print $2" "$3}'

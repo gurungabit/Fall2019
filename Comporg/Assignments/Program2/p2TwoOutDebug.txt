@@ -1,0 +1,46 @@
+PROGRAM 2 Output:
+*** Encryption Only
+>>> Hexdump of Original Data, 534 bytes
+0000 A   f a  r m e r    w e n  t   t o    a   m  a r k e  t   a n  d   p u  r c h a  s e d    
+     41206661 726D6572 2077656E 7420746F 2061206D 61726B65 7420616E 64207075 72636861 73656420 
+0028 a   f o  x ,   a    g o o  s e ,    a n d    a   b a  g   o f    b e a  n s .    O n   h  
+     6120666F 782C2061 20676F6F 73652C20 616E6420 61206261 67206F66 20626561 6E732E20 4F6E2068 
+0050 i s   w  a y   h  o m e ,    t h e    f a r  m e r    . . c a  m e   t  o   t h  e   b a  
+     69732077 61792068 6F6D652C 20746865 20666172 6D657220 00006361 6D652074 6F207468 65206261 
+0078 n k   o  f   a    r i v e  r   a n  d   r e  n t e d    a   b  o a t .    B u t    c r o  
+     6E6B206F 66206120 72697665 7220616E 64207265 6E746564 20612062 6F61742E 20427574 2063726F 
+00a0 s s i n  g   t h  e   r i  v e r    b y   b  o a t ,    t h e    f a r  m e r    c o u l  
+     7373696E 67207468 65207269 76657220 62792062 6F61742C 20746865 20666172 6D657220 636F756C 
+00c8 d   c a  r r y    . . o n  l y   h  i m s e  l f   a  n d   a    s i n  g l e    o n e    
+     64206361 72727920 00006F6E 6C792068 696D7365 6C662061 6E642061 2073696E 676C6520 6F6E6520 
+00f0 o f   h  i s   p  u r c h  a s e s  :   t h  e   f o  x ,   t  h e   g  o o s e  ,   o r  
+     6F662068 69732070 75726368 61736573 3A207468 6520666F 782C2074 68652067 6F6F7365 2C206F72 
+0118   t h e    b a g    o f    b e a n  s . . .  I f   l  e f t    u n a t  t e n d  e d   t  
+     20746865 20626167 206F6620 6265616E 732E0000 4966206C 65667420 756E6174 74656E64 65642074 
+0140 o g e t  h e r ,    t h e    f o x    w o u  l d   e  a t   t  h e   g  o o s e  ,   o r  
+     6F676574 6865722C 20746865 20666F78 20776F75 6C642065 61742074 68652067 6F6F7365 2C206F72 
+0168   t h e    g o o  s e   w  o u l d    e a t    t h e    b e a  n s . .  . T h e    f a r  
+     20746865 20676F6F 73652077 6F756C64 20656174 20746865 20626561 6E732E00 00546865 20666172 
+0190 m e r '  s   c h  a l l e  n g e    w a s    t o   c  a r r y    h i m  s e l f    a n d  
+     6D657227 73206368 616C6C65 6E676520 77617320 746F2063 61727279 2068696D 73656C66 20616E64 
+01b8   h i s    p u r  c h a s  e s   t  o   t h  e   f a  r   b a  n k   o  f   t h  e   r i  
+     20686973 20707572 63686173 65732074 6F207468 65206661 72206261 6E6B206F 66207468 65207269 
+01e0 v e r ,    l e a  v i n g    . . e  a c h    p u r c  h a s e    i n t  a c t .    H o w  
+     7665722C 206C6561 76696E67 20000065 61636820 70757263 68617365 20696E74 6163742E 20486F77 
+0208   d i d    h e    d o   i  t ? . .  . . . .  . . . .  . . a .  . . . .  b . g .  . . . .  
+     20646964 20686520 646F2069 743F0000 00000000 00000000 00006100 00000000 62006700 00000000 
+padded with 0 for a total of 544 bytes
+0000 t w o k  . . . .  A   f a  r m e r    w e n  t   t o    a   m  a r k e  t   a n  d   p u  
+     74776F6B 00000000 41206661 726D6572 2077656E 7420746F 2061206D 61726B65 7420616E 64207075 
+0028 r c h a  s e d    a   f o  x ,   a    g o o  s e ,    a n d    a   b a  g   o f    b e a  
+     72636861 73656420 6120666F 782C2061 20676F6F 73652C20 616E6420 61206261 67206F66 20626561 
+0050 n s .    O n   h  i s   w  a y   h  o m e ,    t h e    f a r  m e r    . . c a  m e   t  
+     6E732E20 4F6E2068 69732077 61792068 6F6D652C 20746865 20666172 6D657220 00006361 6D652074 
+0078 o   t h  e   b a  n k   o  f   a    r i v e  r   a n  d   r e  n t e d    a   b  o a t .  
+     6F207468 65206261 6E6B206F 66206120 72697665 7220616E 64207265 6E746564 20612062 6F61742E 
+00a0   B u t    c r o  s s i n  g   t h  e   r i  v e r    b y   b  o a t ,    t h e    f a r  
+     20427574 2063726F 7373696E 67207468 65207269 76657220 62792062 6F61742C 20746865 20666172 
+00c8 m e r    c o u l  d   c a  r r y    . . o n  l y   h  i m s e  l f   a  n d   a    s i n  
+     6D657220 636F756C 64206361 72727920 00006F6E 6C792068 696D7365 6C662061 6E642061 2073696E 
+00f0 g l e    o n e    o f   h  i s   p  u r c h  a s e s  :   t h  e   f o  x ,   t  h e   g  
+     676C6520 6F6E6520 6F662068 69732070 75
